@@ -1,0 +1,40 @@
+body{
+    cursor: url('./assests/cursor.png'),auto;
+}
+.background{
+    background-image: url("./assests/background.png");
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.hole{
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    margin-right: 10rem;
+    margin-bottom: 1rem;
+}
+.holes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.worm-meter{
+    background-image: url('./assests/worm.png');
+    width: 150px;
+    height: 148px;
+    margin-left: 10rem;
+    transition: width 0.5s ease-in-out;
+}
+.mole{
+    width: 250px;
+    height: 250px;
+}
+.fed:hover{
+    cursor: url('./assests/cursor-worm.png'),auto;
+}
+.win{
+    text-align: center;
+    display: none;
+}
